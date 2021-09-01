@@ -1,6 +1,6 @@
 // //what is a function
 
-// //function is a block of code that can invoked/called where ever neccesary in program
+// //function is a block of code that can be invoked/called where ever neccesary in program
 
 // /*
 // for very 50 loc 
