@@ -112,6 +112,18 @@ if (arr4.length == filtered.length) {
   console.log(true);
 } else console.log(false);
 
+//forEach 
+
+let arr7 = [2,3,4,5];
+console.log("---- -forEach ----")
+let resultForEach = arr7.forEach((val)=>console.log(val*val))
+
+//let arr [{},{}]
+
+console.log(resultForEach);
+
+
+
 //return true only when all values are less than 10 else returns false;
 
 //srini
@@ -125,22 +137,53 @@ function test(arr) {
 }
 console.log(test(arr4));
 
+//every
 
-//every 
-
-let result3 = arr4.every((val)=>val<10);
+let result3 = arr4.every((val) => val < 10);
 console.log(result3);
 
-
-let arr5 =[2,3,15,7,1];
+let arr5 = [2, 3, 15, 7, 1];
 
 //return true if atleast one value is greater than 10
 
 //some
 
-let result4 = arr5.some((val)=>val>10) ;
-console.log(result4)
+let result4 = arr5.some((val) => val > 10);
+console.log(result4);
+
+//reduce
+
+let arr6 = [2, 3, 4, 5];
+
+//reduce(callback function , intialValue )
+
+let sum = arr6.reduce((val1, val2) => val1 * val2, 10 );
+
+/*
+val1 = 2 val2 = 3   => 5
+val1 = 5 val2 = 4 => 9
+val1 = 9  val2 = 5   => 14 
 
 
-//reduce 
+*/
+console.log(sum);
 
+//index       0               1               2
+let arr8= [ ["pragyan",8] ,["srini",10],["kalyani" ,25]];
+//             0       1      0      1     0         1
+let arr9 = [2,4,2,1]
+
+// for(let i =0; i < arr9.length ; i++){
+//   console.log(arr9[i])
+// }
+// //for in 
+
+// for(let i in arr9){
+//   console.log(arr9[i])
+// }
+
+//for of 
+
+for(let i of arr9){
+  console.log(i);    
+}
