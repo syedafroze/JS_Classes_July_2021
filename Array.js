@@ -187,3 +187,15 @@ let arr9 = [2,4,2,1]
 for(let i of arr9){
   console.log(i);    
 }
+
+
+let arr10 = [3,2,4,2];
+
+
+
+let arr11 = [].concat(arr10)
+
+arr10.pop();
+console.log(arr11)
+
+

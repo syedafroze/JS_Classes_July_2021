@@ -4,7 +4,7 @@
 
 // /*
 // for very 50 loc 
-// 10 loc 
+// 10 loc   
 
 // */
 // //function declaration

@@ -83,6 +83,25 @@ user.name = "Ritchie"
 
 console.log(user);
 
+/*
+Object.keys()
+Object.values()
+Object.entries()
+Object.freeze()
+Obejct.assign()
+
+*/
+
+
+
+let obj = Object.assign({}, user, Car2);
+
+
+
+
+console.log(obj);
+
+
 
 
 

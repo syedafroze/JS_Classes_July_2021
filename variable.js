@@ -16,8 +16,12 @@
     //block 
     let num=8;
     console.log(num) ;
-const num3=9;
+    const num3=9;
 }
+
+//  DOM 
+
+// JS 
 
 
 //block scope , global scope 
